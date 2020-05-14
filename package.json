@@ -1,0 +1,20 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-vu/react.git"
+  },
+  "keywords": [],
+  "author": "Brian Vu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b-vu/react/issues"
+  },
+  "homepage": "https://github.com/b-vu/react#readme"
+}
