@@ -1,10 +1,11 @@
 import React from "react";
+import "./Project.css";
 
 const Project = props => {
     const { title, description, projectLink, githubLink, image } = props;
 
     return(
-        <div className="column is-half">
+        <div className="column is-half projectCard">
             <div className="card">
                 <a className="card-image" href={projectLink}>
                     <img src={image} alt={title}></img>
