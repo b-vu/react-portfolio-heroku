@@ -1,5 +1,14 @@
 .navbar-item{
     font-size: 20px;
+    color: white;
+}
+
+.navlink{
+    color: white;
+}
+
+.navlink:hover{
+    color: white;
 }
 
 #name{

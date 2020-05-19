@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.css";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     document.addEventListener('DOMContentLoaded', () => {
@@ -31,9 +32,11 @@ const Nav = () => {
         <div>
             <nav className="navbar is-info" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
-                    <a className="navbar-item" href="/">
-                        <p id="name"><strong>Brian Vu</strong></p>
-                    </a>
+                    <Link to={"/"}>
+                        <div className="navbar-item" >
+                            <p id="name"><strong>Brian Vu</strong></p>
+                        </div>
+                    </Link>
                 
                     <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
@@ -44,17 +47,29 @@ const Nav = () => {
                 
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="navbar-start">
-                        <a className="navbar-item" href="/about">
-                            About
-                        </a>
+                        <p className="navbar-item">
+                            <Link to={"/"}
+                                className="navlink"
+                            >
+                                About
+                            </Link>
+                        </p>
                     
-                        <a className="navbar-item" href="/portfolio">
-                            Portfolio
-                        </a>
+                        <p className="navbar-item">
+                            <Link to={"/portfolio"}
+                                className="navlink"
+                            >
+                                Portfolio
+                            </Link>
+                        </p>
 
-                        <a className="navbar-item" href="/contact">
-                            Contact
-                        </a>
+                        <p className="navbar-item">
+                            <Link to={"/contact"}
+                                className="navlink"
+                            >
+                                Contact
+                            </Link>
+                        </p>
 
                         <a className="navbar-item" href="https://github.com/b-vu">
                             <i className="fab fa-github"></i>
