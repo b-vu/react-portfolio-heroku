@@ -10,7 +10,7 @@ const Footer = () => {
                 </a>
                     &nbsp;
                     &nbsp;
-                <a className="link level-item" href="/">
+                <a className="link level-item" href="https://www.linkedin.com/in/brian-vu-9538671b0/">
                     <i className="fab fa-linkedin"></i>
                 </a>
                     &nbsp;
@@ -19,8 +19,6 @@ const Footer = () => {
                     <i className="fas fa-envelope level-item"></i>
                     <p className="small-text level-item">&nbsp;brianvu7@gmail.com</p>
                 </a>
-                    {/* &nbsp; */}
-                {/* <span className="small-text level-item">&copy; Brian Vu &nbsp;</span> */}
             </div>
         </footer>
     );

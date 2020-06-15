@@ -76,7 +76,7 @@ const Nav = () => {
                             &nbsp;GitHub
                         </a>
 
-                        <a className="navbar-item" href="/">
+                        <a className="navbar-item" href="https://www.linkedin.com/in/brian-vu-9538671b0/">
                             <i className="fab fa-linkedin"></i>
                             &nbsp;LinkedIn
                         </a>
